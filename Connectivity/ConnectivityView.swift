@@ -9,16 +9,22 @@ struct ConnectivityView: View {
     
     
     var body: some View {
-        VStack(spacing: 16) {
-            itemView(title: "WiFi", image: "wifi", type: .wifi)
+        ZStack{
+           
             
-            itemView(title: "Cellular", image: "antenna.radiowaves.left.and.right", type: .cellular)
-            
-            itemView(title: "Localhost", image: "house", type: .localhost)
-            
-            itemView(title: "Ethernet", image: "app.connected.to.app.below.fill", type: .ethernet)
-            
-            itemView(title: "No Connection", image: "xmark.octagon", type: .unknown)
+            VStack(spacing: 16) {
+                itemView(title: "WiFi", image: "wifi", type: .wifi)
+                
+                itemView(title: "Cellular", image: "antenna.radiowaves.left.and.right", type: .cellular)
+                
+                itemView(title: "Localhost", image: "house", type: .localhost)
+                
+                itemView(title: "Ethernet", image: "app.connected.to.app.below.fill", type: .ethernet)
+                
+                itemView(title: "No Connection", image: "xmark.octagon", type: .unknown)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(.indigo)
         }
     }
     
