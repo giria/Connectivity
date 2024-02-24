@@ -7,5 +7,6 @@ Tells the connectivity used by the device (WiFi, Mobile, Network, or NoConnectio
 
 
 
+![Simulator Screenshot - iPhone 15 Pro - 2024-02-24 at 19 25 06](https://github.com/giria/Connectivity/assets/905975/6e2cc5e4-74da-435f-81d7-24de0d2468e5)
 
-![307541979-94f9b9ba-dc85-4b18-8984-db1bea20b5dc](https://github.com/giria/Connectivity/assets/905975/0c65c071-65ca-4c8b-8307-5eda2ee6c7a3)
+
