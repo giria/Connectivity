@@ -24,7 +24,8 @@ struct ConnectivityView: View {
                 itemView(title: "No Connection", image: "xmark.octagon", type: .unknown)
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background(.indigo)
+           //.background(.tertiary)
+            
         }
     }
     
